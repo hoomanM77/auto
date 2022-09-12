@@ -1,0 +1,72 @@
+*{
+    font-family: Cairo,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+
+li {
+    list-style-type: none !important;
+
+}
+ul{
+    padding: 0!important;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 2;
+
+}
+
+p {
+    margin: 0.5rem 0;
+    text-align: justify;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 2;
+
+}
+
+a:hover {
+
+}
+body{
+    background: #941bd6;
+
+}
+.search-icon{
+    top: 14%;
+    padding-right: 1rem;
+    right: 0;
+    cursor: pointer;
+}
+.suggestion-list.active{
+    display: block;
+}
+.suggestion-list{
+    display: none;
+}
+.suggestion-list ul{
+    overflow-y: auto;
+    max-height: 150px
+}
+.suggestion-list ul li{
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+    transition: all 200ms linear;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.suggestion-list ul li:hover{
+    background: #cccccc;
+}
